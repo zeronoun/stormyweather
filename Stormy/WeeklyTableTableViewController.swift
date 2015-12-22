@@ -16,7 +16,7 @@ class WeeklyTableTableViewController: UITableViewController {
     @IBOutlet weak var currentTemperatureRangeLabel: UILabel!
     
     // TODO: Enter your API key here
-    private let forecastAPIKey = "1732e748403704373e18a997cbbb2eb8"
+    private let forecastAPIKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     
     var weeklyWeather: [DailyWeather] = []
     

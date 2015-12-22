@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Stormy.xcodeproj">
+      location = "self:/Users/noun/Documents/Xcode Play/Stormy/StormyWeather.xcodeproj">
    </FileRef>
 </Workspace>

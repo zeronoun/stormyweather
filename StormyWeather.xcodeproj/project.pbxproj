@@ -24,8 +24,7 @@
 		1AD940AC1B7D82B5001B2ECF /* WeeklyTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD940AB1B7D82B5001B2ECF /* WeeklyTableTableViewController.swift */; };
 		1AD940AE1B7D83B5001B2ECF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD940AD1B7D83B5001B2ECF /* BackgroundView.swift */; };
 		1AEB3AEE1B8E1A4D00FF64A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEB3AED1B8E1A4D00FF64A7 /* CoreLocation.framework */; };
-		1AEB3AF01B8E2FEF00FF64A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB3AEF1B8E2FEF00FF64A7 /* Location.swift */; settings = {ASSET_TAGS = (); }; };
-		1AFDEA421B8CF7F60028FC9A /* DetailBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDEA411B8CF7F60028FC9A /* DetailBackgroundView.swift */; settings = {ASSET_TAGS = (); }; };
+		1AFDEA421B8CF7F60028FC9A /* DetailBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDEA411B8CF7F60028FC9A /* DetailBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,15 +49,15 @@
 		1A7B249A1B75630D0022A6E5 /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 		1A7B249C1B7570870022A6E5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A7B249E1B7570CA0022A6E5 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
-		1A8A144E1B62BF5A00B3B46D /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8A144E1B62BF5A00B3B46D /* StormyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8A14511B62BF5A00B3B46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8A14581B62BF5A00B3B46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A8A145B1B62BF5A00B3B46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A8A145D1B62BF5A00B3B46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A8A14621B62BF5A00B3B46D /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8A14621B62BF5A00B3B46D /* StormyWeather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyWeather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8A14661B62BF5A00B3B46D /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
 		1A8A14681B62BF5A00B3B46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A8A146D1B62BF5A00B3B46D /* StormyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8A146D1B62BF5A00B3B46D /* StormyWeather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyWeather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8A14711B62BF5A00B3B46D /* StormyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyUITests.swift; sourceTree = "<group>"; };
 		1A8A14731B62BF5A00B3B46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8A14831B62C12100B3B46D /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
@@ -70,7 +69,6 @@
 		1AD940AB1B7D82B5001B2ECF /* WeeklyTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyTableTableViewController.swift; sourceTree = "<group>"; };
 		1AD940AD1B7D83B5001B2ECF /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		1AEB3AED1B8E1A4D00FF64A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		1AEB3AEF1B8E2FEF00FF64A7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		1AFDEA411B8CF7F60028FC9A /* DetailBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,9 +112,9 @@
 		1A8A144F1B62BF5A00B3B46D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A8A144E1B62BF5A00B3B46D /* Stormy.app */,
-				1A8A14621B62BF5A00B3B46D /* StormyTests.xctest */,
-				1A8A146D1B62BF5A00B3B46D /* StormyUITests.xctest */,
+				1A8A144E1B62BF5A00B3B46D /* StormyWeather.app */,
+				1A8A14621B62BF5A00B3B46D /* StormyWeather.xctest */,
+				1A8A146D1B62BF5A00B3B46D /* StormyWeather.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,7 +188,6 @@
 			children = (
 				1A7B249A1B75630D0022A6E5 /* ForecastService.swift */,
 				1A7B249E1B7570CA0022A6E5 /* NetworkOperation.swift */,
-				1AEB3AEF1B8E2FEF00FF64A7 /* Location.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -207,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A8A144D1B62BF5A00B3B46D /* Stormy */ = {
+		1A8A144D1B62BF5A00B3B46D /* StormyWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A8A14761B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "Stormy" */;
+			buildConfigurationList = 1A8A14761B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeather" */;
 			buildPhases = (
 				1A8A144A1B62BF5A00B3B46D /* Sources */,
 				1A8A144B1B62BF5A00B3B46D /* Frameworks */,
@@ -219,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = Stormy;
+			name = StormyWeather;
 			productName = Stormy;
-			productReference = 1A8A144E1B62BF5A00B3B46D /* Stormy.app */;
+			productReference = 1A8A144E1B62BF5A00B3B46D /* StormyWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A8A14611B62BF5A00B3B46D /* StormyTests */ = {
+		1A8A14611B62BF5A00B3B46D /* StormyWeatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A8A14791B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyTests" */;
+			buildConfigurationList = 1A8A14791B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeatherTests" */;
 			buildPhases = (
 				1A8A145E1B62BF5A00B3B46D /* Sources */,
 				1A8A145F1B62BF5A00B3B46D /* Frameworks */,
@@ -237,14 +234,14 @@
 			dependencies = (
 				1A8A14641B62BF5A00B3B46D /* PBXTargetDependency */,
 			);
-			name = StormyTests;
+			name = StormyWeatherTests;
 			productName = StormyTests;
-			productReference = 1A8A14621B62BF5A00B3B46D /* StormyTests.xctest */;
+			productReference = 1A8A14621B62BF5A00B3B46D /* StormyWeather.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1A8A146C1B62BF5A00B3B46D /* StormyUITests */ = {
+		1A8A146C1B62BF5A00B3B46D /* StormyWeatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A8A147C1B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyUITests" */;
+			buildConfigurationList = 1A8A147C1B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeatherUITests" */;
 			buildPhases = (
 				1A8A14691B62BF5A00B3B46D /* Sources */,
 				1A8A146A1B62BF5A00B3B46D /* Frameworks */,
@@ -255,9 +252,9 @@
 			dependencies = (
 				1A8A146F1B62BF5A00B3B46D /* PBXTargetDependency */,
 			);
-			name = StormyUITests;
+			name = StormyWeatherUITests;
 			productName = StormyUITests;
-			productReference = 1A8A146D1B62BF5A00B3B46D /* StormyUITests.xctest */;
+			productReference = 1A8A146D1B62BF5A00B3B46D /* StormyWeather.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A8A14491B62BF5A00B3B46D /* Build configuration list for PBXProject "Stormy" */;
+			buildConfigurationList = 1A8A14491B62BF5A00B3B46D /* Build configuration list for PBXProject "StormyWeather" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,9 +292,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A8A144D1B62BF5A00B3B46D /* Stormy */,
-				1A8A14611B62BF5A00B3B46D /* StormyTests */,
-				1A8A146C1B62BF5A00B3B46D /* StormyUITests */,
+				1A8A144D1B62BF5A00B3B46D /* StormyWeather */,
+				1A8A14611B62BF5A00B3B46D /* StormyWeatherTests */,
+				1A8A146C1B62BF5A00B3B46D /* StormyWeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,7 +337,6 @@
 				1AFDEA421B8CF7F60028FC9A /* DetailBackgroundView.swift in Sources */,
 				1A8B97C71B8694CD00BCC50F /* Icon.swift in Sources */,
 				1A7B249F1B7570CA0022A6E5 /* NetworkOperation.swift in Sources */,
-				1AEB3AF01B8E2FEF00FF64A7 /* Location.swift in Sources */,
 				1A8B97CB1B86B2F600BCC50F /* Forecast.swift in Sources */,
 				1AD940AE1B7D83B5001B2ECF /* BackgroundView.swift in Sources */,
 				1AD940AC1B7D82B5001B2ECF /* WeeklyTableTableViewController.swift in Sources */,
@@ -371,12 +367,12 @@
 /* Begin PBXTargetDependency section */
 		1A8A14641B62BF5A00B3B46D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A8A144D1B62BF5A00B3B46D /* Stormy */;
+			target = 1A8A144D1B62BF5A00B3B46D /* StormyWeather */;
 			targetProxy = 1A8A14631B62BF5A00B3B46D /* PBXContainerItemProxy */;
 		};
 		1A8A146F1B62BF5A00B3B46D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A8A144D1B62BF5A00B3B46D /* Stormy */;
+			target = 1A8A144D1B62BF5A00B3B46D /* StormyWeather */;
 			targetProxy = 1A8A146E1B62BF5A00B3B46D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +477,7 @@
 				INFOPLIST_FILE = Stormy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.Stormy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StormyWeather;
 			};
 			name = Debug;
 		};
@@ -492,7 +488,7 @@
 				INFOPLIST_FILE = Stormy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.Stormy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StormyWeather;
 			};
 			name = Release;
 		};
@@ -503,8 +499,8 @@
 				INFOPLIST_FILE = StormyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.StormyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stormy.app/Stormy";
+				PRODUCT_NAME = StormyWeather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormyWeather.app/StormyWeather";
 			};
 			name = Debug;
 		};
@@ -515,8 +511,8 @@
 				INFOPLIST_FILE = StormyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.StormyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stormy.app/Stormy";
+				PRODUCT_NAME = StormyWeather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormyWeather.app/StormyWeather";
 			};
 			name = Release;
 		};
@@ -526,7 +522,7 @@
 				INFOPLIST_FILE = StormyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.StormyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StormyWeather;
 				TEST_TARGET_NAME = Stormy;
 				USES_XCTRUNNER = YES;
 			};
@@ -538,7 +534,7 @@
 				INFOPLIST_FILE = StormyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meinc.StormyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StormyWeather;
 				TEST_TARGET_NAME = Stormy;
 				USES_XCTRUNNER = YES;
 			};
@@ -547,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A8A14491B62BF5A00B3B46D /* Build configuration list for PBXProject "Stormy" */ = {
+		1A8A14491B62BF5A00B3B46D /* Build configuration list for PBXProject "StormyWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8A14741B62BF5A00B3B46D /* Debug */,
@@ -556,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A8A14761B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "Stormy" */ = {
+		1A8A14761B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8A14771B62BF5A00B3B46D /* Debug */,
@@ -565,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A8A14791B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
+		1A8A14791B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8A147A1B62BF5A00B3B46D /* Debug */,
@@ -574,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A8A147C1B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyUITests" */ = {
+		1A8A147C1B62BF5A00B3B46D /* Build configuration list for PBXNativeTarget "StormyWeatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8A147D1B62BF5A00B3B46D /* Debug */,
